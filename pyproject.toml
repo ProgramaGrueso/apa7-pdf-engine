@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "apa7-pdf-engine"
+version = "0.1.0"
+authors = [
+  { name="ProgramaGrueso", email="juanganoza@hotmail.com" },
+]
+description = "Strict, publication-grade APA 7 PDF report generator powered by Headless Chromium"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Documentation",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Text Processing :: Markup :: HTML",
+]
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/ProgramaGrueso/apa7-pdf-engine"
+"Bug Tracker" = "https://github.com/ProgramaGrueso/apa7-pdf-engine/issues"
